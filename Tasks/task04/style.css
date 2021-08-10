@@ -1,0 +1,23 @@
+body{
+  background-color: #e3e2df;
+}
+
+h1{
+  color: #9a1750;
+}
+p{
+  color: #000;
+}
+a:link,a:visited{
+  padding: 5px;
+  color: #000;
+  background-color: red;
+  text-decoration: none;
+}
+input{
+  display: block;
+  margin: 10px 0;
+}
+iframe{
+  margin-top: 10px;
+}
