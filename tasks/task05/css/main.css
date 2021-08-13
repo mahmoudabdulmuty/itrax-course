@@ -1,0 +1,48 @@
+.introduce-container {
+	width: 95%;
+	margin: 100px auto;
+}
+.inline-block {
+	display: inline-block;
+	width: 45%;
+}
+.introduce-img {
+	width: 45%;
+}
+.introduce-img img {
+	display: block;
+	width: 100%;
+	width: 445px;
+}
+.introduce-details {
+	margin: 0;
+	width: 45%;
+	margin-left: 15px;
+}
+.introduce-details h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.introduce-details p {
+	color: #777;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.download-cv {
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #7f50ec;
+	text-align: center;
+	border: none;
+	padding: 5px 15px;
+	text-transform: uppercase;
+}
+.download-cv:hover {
+	color: #000;
+	border: 1px solid #7f50ec;
+	background-color: #fff;
+}
