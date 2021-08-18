@@ -1,7 +1,54 @@
-/* .fa-paper-plane {
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+.myapp {
+	margin-left: 50px;
+	width: 85%;
+	font-family: 'rubik', 'sans-serif';
+}
+.details-container {
+	margin-top: 200px;
+	width: 50%;
+	float: left;
+}
+.fa-paper-plane {
 	color: #5472d2;
 	font-size: 2.15em;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1;
-} */
+}
+.details-container h2 {
+	margin-top: 50px;
+	font-size: 32px;
+	color: #303030;
+	line-height: 1.38em;
+	font-weight: 400;
+}
+.details-container p {
+	margin-top: 0;
+	line-height: 1.86em;
+	font-size: 1.04em;
+	color: #606060;
+}
+.img-container {
+	width: 50%;
+	float: left;
+}
+.clear-fix {
+	clear: both;
+}
+.btn {
+	display: inline-block;
+	color: #fff;
+	background-color: #4868db;
+	font-size: 15px;
+	line-height: 1.3rem;
+	margin-top: 27px;
+	margin-bottom: 12px;
+	padding: 11px 20px;
+	border: 2px solid transparent;
+	border-radius: 35px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+}
