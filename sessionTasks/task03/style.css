@@ -1,0 +1,36 @@
+.main-section {
+	width: 100%;
+	font-family: 'rubik', 'sans-serif';
+}
+.details-container {
+	margin-top: 200px;
+	margin-left: 50px;
+	width: 50%;
+	float: left;
+}
+.details-container h2 {
+	font-size: 32px;
+}
+.details-container p {
+	line-height: 1.86em;
+}
+.img-container {
+	width: 40%;
+	float: left;
+}
+.img-container img {
+	width: 100%;
+}
+.clear-fix {
+	clear: both;
+}
+.btn {
+	color: #fff;
+	background-color: #4868db;
+	font-weight: bold;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
