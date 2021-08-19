@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
-/* my-app section start */
+/* CSS reset */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'rubik', 'sans-serif';
 }
+/* General ELements */
 h2 {
 	margin-top: 50px;
 	font-size: 32px;
@@ -19,6 +20,7 @@ p {
 	font-size: 1.04em;
 	color: #606060;
 }
+/* my-app section start */
 .my-app {
 	padding-left: 75px;
 	width: 85%;
