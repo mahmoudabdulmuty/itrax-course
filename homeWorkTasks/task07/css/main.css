@@ -1,10 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
-.myapp {
-	margin-left: 50px;
-	width: 85%;
+/* my-app section start */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	font-family: 'rubik', 'sans-serif';
 }
-.details-container {
+h2 {
+	margin-top: 50px;
+	font-size: 32px;
+	color: #303030;
+	line-height: 1.38em;
+	font-weight: 400;
+}
+p {
+	margin-top: 15px;
+	line-height: 1.86em;
+	font-size: 1.04em;
+	color: #606060;
+}
+.my-app {
+	padding-left: 75px;
+	width: 85%;
+}
+.my-app__details {
 	margin-top: 200px;
 	width: 50%;
 	float: left;
@@ -16,19 +35,7 @@
 	font-weight: 400;
 	line-height: 1;
 }
-.details-container h2 {
-	margin-top: 50px;
-	font-size: 32px;
-	color: #303030;
-	line-height: 1.38em;
-	font-weight: 400;
-}
-.details-container p {
-	margin-top: 0;
-	line-height: 1.86em;
-	font-size: 1.04em;
-	color: #606060;
-}
+
 .img-container {
 	width: 50%;
 	float: left;
@@ -52,3 +59,24 @@
 	font-weight: 700;
 	letter-spacing: 0.2px;
 }
+/* my-app section end */
+/* about-us section start */
+.about-us {
+	background-color: #f8f8f8;
+	padding: 135px 50px 90px 75px;
+}
+.about-us__img {
+	width: 50%;
+	float: left;
+}
+.about-us__details {
+	margin-top: 200px;
+	width: 50%;
+	float: right;
+}
+hr {
+	width: 40px;
+	color: #e3e3e3;
+	margin: 30px 0;
+}
+/* about-us section end */
