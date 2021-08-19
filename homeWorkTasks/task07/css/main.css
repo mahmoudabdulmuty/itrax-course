@@ -22,10 +22,11 @@ p {
 }
 /* my-app section start */
 .my-app {
+	padding-top: 100px;
 	padding-left: 75px;
 	width: 85%;
 }
-.my-app__details {
+.my-app__container {
 	margin-top: 200px;
 	width: 50%;
 	float: left;
@@ -38,7 +39,7 @@ p {
 	line-height: 1;
 }
 
-.img-container {
+.my-app__img {
 	width: 50%;
 	float: left;
 }
@@ -47,19 +48,19 @@ p {
 }
 .btn {
 	display: inline-block;
-	color: #fff;
-	background-color: #4868db;
-	font-size: 15px;
-	line-height: 1.3rem;
 	margin-top: 27px;
 	margin-bottom: 12px;
 	padding: 11px 20px;
+	color: #fff;
+	background-color: #4868db;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+	line-height: 1.3rem;
 	border: 2px solid transparent;
 	border-radius: 35px;
 	cursor: pointer;
 	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 0.2px;
 }
 /* my-app section end */
 /* about-us section start */
@@ -71,7 +72,7 @@ p {
 	width: 50%;
 	float: left;
 }
-.about-us__details {
+.about-us__container {
 	margin-top: 200px;
 	width: 50%;
 	float: right;
