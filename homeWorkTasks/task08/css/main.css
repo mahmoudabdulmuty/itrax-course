@@ -29,7 +29,7 @@
 /* main sections */
 .main {
 	width: 90%;
-	margin: 100px auto 0;
+	margin: 150px auto;
 }
 .container {
 	width: 30%;
@@ -37,7 +37,7 @@
 .container__content {
 	width: 88%;
 }
-/* img , title & description */
+/* img, title & description */
 .container__img {
 	width: 9%;
 	margin: -4px -4px 0 -11px;
