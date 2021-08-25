@@ -6,11 +6,36 @@
 
 .header {
 	background-color: rgba(0, 0, 0, 0.7);
+	padding: 15px 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+.logo {
+	margin-left: 70px;
+	height: 36px;
+}
+.navbar {
+	display: flex;
+	gap: 28px;
+	margin-right: 70px;
+}
 .navbar a {
+	align-self: center;
 	color: #fff;
 	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	font-weight: 600;
+}
+.navbar .contact {
+	color: #000;
+	border-radius: 2px;
+	padding: 11px 18px;
+	background-color: #fff;
+}
+.navbar .contact:hover {
+	color: #fff;
+	background-color: #4caf50;
 }
