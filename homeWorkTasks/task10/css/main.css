@@ -10,7 +10,7 @@
 body {
 	font-family: 'Rubik';
 }
-li {
+ul {
 	list-style-type: none;
 }
 a {
@@ -74,10 +74,32 @@ a {
 	background-color: #eee;
 	padding: 70px;
 }
-.svg-inline--fa {
-	width: 20px;
+.footer__social-icons li {
+	margin-top: -22px;
+	display: inline-block;
+}
+.footer__social-icons a {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #818181;
 	font-size: 20px;
-	border: 1px solid red;
-	border-radius: 50%;
+	padding: 15px 20px;
 	background-color: #dbdbdb;
+	border-radius: 50%;
+}
+.footer__social-icons a:hover {
+	color: #fff;
+}
+.facebook-icon:hover {
+	background-color: #3b5998;
+}
+.google-icon:hover {
+	background-color: #dd4b39;
+}
+.linkedin-icon:hover {
+	background-color: #007bb5;
+}
+.twitter-icon:hover {
+	background-color: #00aced;
 }
