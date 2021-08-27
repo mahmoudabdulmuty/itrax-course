@@ -1,5 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/******************** */
+/*     CSS Reset      */
+/******************** */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+body {
+	font-family: 'Rubik';
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+/************************** */
+/*    GENERAL-CALSSES      */
+/************************** */
+.capitalize-text {
+	text-transform: capitalize;
+}
+.uppercase-text {
+	text-transform: uppercase;
+}
+/*********************** */
+/*    FLOAT-CLASSES      */
+/*********************** */
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.clear-float {
+	clear: both;
+}
+/* ************************** */
+/*    FOOTER-MAIN & WIDGET    */
+/* ************************** */
+.footer__main {
+	width: 100%;
+	background-color: #f4f4f4;
+	padding: 70px;
+}
+.widget {
+	margin-right: 150px;
+}
+.widget__title {
+	margin-bottom: 25px;
+	letter-spacing: 1px;
+	color: #4868db;
+	font-size: 15px;
+	font-weight: 400;
+}
+.widget__content li {
+	margin-bottom: 10px;
+}
+.widget__content li a,
+.footer__bottom p {
+	font-size: 14px;
+	color: #888;
+}
+.widget__content li a:hover {
+	color: #4868db;
+}
+
+/* ***************************************** */
+/*    FOOTER-BOTTOM, COPYRIGHTS & ICONS      */
+/* ***************************************** */
+.footer__bottom {
+	background-color: #eee;
+	padding: 70px;
+}
+.svg-inline--fa {
+	width: 20px;
+	font-size: 20px;
+	border: 1px solid red;
+	border-radius: 50%;
+	background-color: #dbdbdb;
 }
