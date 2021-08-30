@@ -1,8 +1,58 @@
 /******************** */
-/*     CSS Reset      */
+/*     CSS RESET      */
 /******************** */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+/******************************* */
+/*     CONTAINER && MEMEBER      */
+/******************************* */
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.member {
+	height: 420px;
+}
+/********************** */
+/*     BACKGROUNDS      */
+/********************** */
+.bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.bg-url-1 {
+	background-image: url(../img/member-1.jpg.webp);
+}
+.bg-url-2 {
+	background-image: url(../img/member-2.jpg.webp);
+}
+.bg-url-3 {
+	background-image: url(../img/member-3.jpg.webp);
+}
+.bg-url-4 {
+	background-image: url(../img/member-4.jpg.webp);
+}
+.bg-url-5 {
+	background-image: url(../img/member-5.jpg.webp);
+}
+.bg-url-6 {
+	background-image: url(../img/member-6.jpg.webp);
+}
+.bg-url-7 {
+	background-image: url(../img/member-7.jpg.webp);
+}
+.bg-url-8 {
+	background-image: url(../img/member-8.jpg.webp);
+}
+.bg-url-9 {
+	background-image: url(../img/member-9.jpg.webp);
+}
+.bg-url-10 {
+	background-image: url(../img/member-10.jpg.webp);
 }
