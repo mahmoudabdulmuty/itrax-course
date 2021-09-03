@@ -140,6 +140,10 @@ body {
 	text-transform: uppercase;
 	background-color: #efba6c;
 	bottom: 60px;
+	transition: all 0.3s ease;
+}
+.btn:hover {
+	background-color: #eaa43e;
 }
 .btn-text {
 	display: inline-block;
