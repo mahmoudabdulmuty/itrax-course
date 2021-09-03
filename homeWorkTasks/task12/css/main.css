@@ -18,13 +18,46 @@ body {
 a {
 	text-decoration: none;
 }
+/*************************** */
+/*     GENERAL CLASSES       */
+/*************************** */
+.traveler__content__paragragh {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.small-text {
+	color: #efba6c;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.background-text {
+	position: absolute;
+	font-size: 5rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #efefef;
+	top: -69%;
+	z-index: -1;
+}
+.bottom-text {
+	font-size: 1.75rem;
+	color: #000;
+	font-weight: 500;
+	line-height: 1.2;
+	text-transform: capitalize;
+}
+.traveler__content__heading,
+.journey__heading {
+	position: relative;
+}
 /********************* */
 /*     TARAVELER       */
 /********************* */
 .traveler {
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	margin: 0 130px 0 120px;
 }
 .traveler__img {
@@ -34,33 +67,102 @@ a {
 	width: 100%;
 }
 .traveler__content__heading {
-	position: relative;
 	margin-bottom: 50px;
 }
-.traveler__content__heading .discover-story {
-	color: #efba6c;
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: bold;
+/********************* */
+/*     JOURNEY         */
+/********************* */
+.journey {
+	margin-top: 100px;
+	position: relative;
 }
-.traveler__content__heading .story {
+.journey__heading {
+	text-align: center;
+}
+.journey__heading .background-text {
+	right: 36%;
+}
+
+.journey__container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	margin: 50px 120px 0 120px;
+	gap: 30px;
+}
+.item {
+	overflow: hidden;
+	position: relative;
+}
+.item:after {
 	position: absolute;
-	font-size: 5rem;
+	content: '';
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 1;
+	background: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 0.31) 47%,
+		rgba(0, 0, 0, 0.65) 100%
+	);
+}
+.bg {
+	height: 467px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 0.3s linear;
+	transform: scale(1.05);
+}
+.item:hover .bg {
+	transform: scale(1);
+}
+.btn,
+.btn-text {
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 2;
+}
+.btn {
+	display: inline-block;
+	font-size: 12px;
+	padding: 5px 30px;
+	border-radius: 30px;
+	border: none;
+	color: #fff;
+	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	font-weight: 900;
-	color: #efefef;
-	top: -69%;
-	z-index: -1;
+	background-color: #efba6c;
+	bottom: 60px;
 }
-.traveler__content__heading .our-story {
-	font-size: 1.75rem;
-	color: #000;
-	font-weight: 500;
-	line-height: 1.2;
-	text-transform: capitalize;
+.btn-text {
+	display: inline-block;
+	bottom: 28px;
+	width: 100%;
+	text-align: center;
 }
-.traveler__content__paragragh {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
+/********************* */
+/*   BACKGROUNDS URL   */
+/********************* */
+.bg-url-1 {
+	background-image: url('../img/ximg_1.jpg.webp');
+}
+.bg-url-2 {
+	background-image: url('../img/ximg_2.jpg.webp');
+}
+.bg-url-3 {
+	background-image: url('../img/ximg_3.jpg.webp');
+}
+.bg-url-4 {
+	background-image: url('../img/ximg_4.jpg.webp');
+}
+.bg-url-5 {
+	background-image: url('../img/ximg_5.jpg.webp');
+}
+.bg-url-6 {
+	background-image: url('../img/ximg_6.jpg.webp');
 }
