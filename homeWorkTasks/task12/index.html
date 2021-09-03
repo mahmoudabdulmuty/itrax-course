@@ -5,12 +5,14 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- AOS CSS -->
-		<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/main.css" />
 		<title>index</title>
 	</head>
 	<body>
+		<!-- height to test animation -->
+		<div style="height: 900px"></div>
 		<!-- TRAVELER START -->
 		<section class="traveler">
 			<div class="traveler__content">
@@ -31,7 +33,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="traveler__img">
+			<div class="traveler__img aos-animate" data-aos="fade-right">
 				<img
 					src="img/xtraveler.jpg.webp"
 					alt="a traveler man holding a suitcase"
@@ -47,32 +49,32 @@
 				<h3 class="bottom-text">your journey start here</h3>
 			</div>
 			<div class="journey__container">
-				<div class="item">
+				<div class="item aos-init aos-animate" data-aos="fade-up">
 					<div class="bg bg-url-1"></div>
 					<button class="btn">&dollar;200</button>
 					<span class="btn-text">Dignissimos debitis</span>
 				</div>
-				<div class="item">
+				<div class="item aos-init aos-animate" data-aos="fade-up">
 					<div class="bg bg-url-2"></div>
 					<button class="btn">&dollar;390</button>
 					<span class="btn-text">Consectetur adipisicing</span>
 				</div>
-				<div class="item">
+				<div class="item aos-init aos-animate" data-aos="fade-up">
 					<div class="bg bg-url-3"></div>
 					<button class="btn">&dollar;180</button>
 					<span class="btn-text">Temporibus aperiam</span>
 				</div>
-				<div class="item">
+				<div class="item aos-init aos-animate" data-aos="fade-up">
 					<div class="bg bg-url-4"></div>
 					<button class="btn">&dollar;600</button>
 					<span class="btn-text">Expedita fugiat</span>
 				</div>
-				<div class="item">
+				<div class="item aos-init aos-animate" data-aos="fade-up">
 					<div class="bg bg-url-5"></div>
 					<button class="btn">&dollar;330</button>
 					<span class="btn-text">Consectetur adipisicing</span>
 				</div>
-				<div class="item">
+				<div class="item aos-init aos-animate" data-aos="fade-up">
 					<div class="bg bg-url-6"></div>
 					<button class="btn">&dollar;450</button>
 					<span class="btn-text">Consectetur Amet</span>
@@ -81,9 +83,9 @@
 		</section>
 		<!-- JOURNEY END -->
 		<!-- AOS JS -->
-		<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
-		AOS.init();
-		</script> -->
+			AOS.init();
+		</script>
 	</body>
 </html>

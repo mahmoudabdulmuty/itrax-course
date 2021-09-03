@@ -56,7 +56,8 @@ a {
 /*     TARAVELER       */
 /********************* */
 .traveler {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	align-items: center;
 	margin: 0 130px 0 120px;
 }
@@ -85,10 +86,13 @@ a {
 
 .journey__container {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	margin: 50px 120px 0 120px;
 	gap: 30px;
 }
+/***************************** */
+/*     BACKGROUNDS ITEMS       */
+/***************************** */
 .item {
 	overflow: hidden;
 	position: relative;
