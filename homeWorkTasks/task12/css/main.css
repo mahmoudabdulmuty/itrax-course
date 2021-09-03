@@ -59,7 +59,7 @@ a {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
 	align-items: center;
-	margin: 0 130px 0 120px;
+	margin: 0 10%;
 }
 .traveler__img {
 	width: 100%;
@@ -81,13 +81,14 @@ a {
 	text-align: center;
 }
 .journey__heading .background-text {
-	right: 36%;
+	width: 100%;
+	text-align: center;
 }
 
 .journey__container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	margin: 50px 120px 0 120px;
+	margin: 50px 10% 0 10%;
 	gap: 30px;
 }
 /***************************** */
