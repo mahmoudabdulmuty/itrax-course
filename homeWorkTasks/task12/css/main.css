@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;900&display=swap');
 /******************** */
 /*     CSS RESET      */
 /******************** */
@@ -8,13 +9,58 @@
 }
 
 body {
+	line-height: 1.7;
+	color: #364d59;
+	font-weight: 400;
+	font-size: 1rem;
 	font-family: 'Work Sans', sans-serif;
-	line-height: 1;
 }
 a {
 	text-decoration: none;
 }
 /********************* */
-/*     CONTAINERS      */
+/*     TARAVELER       */
 /********************* */
-
+.traveler {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 130px 0 120px;
+}
+.traveler__img {
+	width: 100%;
+}
+.traveler__img img {
+	width: 100%;
+}
+.traveler__content__heading {
+	position: relative;
+	margin-bottom: 50px;
+}
+.traveler__content__heading .discover-story {
+	color: #efba6c;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.traveler__content__heading .story {
+	position: absolute;
+	font-size: 5rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #efefef;
+	top: -69%;
+	z-index: -1;
+}
+.traveler__content__heading .our-story {
+	font-size: 1.75rem;
+	color: #000;
+	font-weight: 500;
+	line-height: 1.2;
+	text-transform: capitalize;
+}
+.traveler__content__paragragh {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
