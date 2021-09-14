@@ -1,1 +1,1 @@
-# itrax-course
+# Itrax Front-End Deploma
