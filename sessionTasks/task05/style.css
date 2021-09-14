@@ -3,29 +3,55 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.navbar {
+	padding: 0 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.img-box {
+	display: inline-block;
+	width: 100%;
+}
+.img-box img {
+	height: 5rem;
+}
+.navbar .list {
+	display: flex;
+	gap: 2rem;
+}
 
 .section {
 	background-color: rgba(0, 0, 0, 0.712);
-	padding: 120px 0;
+	padding: 3rem 0;
 }
+
 .container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 1rem;
+	gap: 1rem;
 	overflow: hidden;
 }
 
 .box {
-	float: left;
-	width: 18%;
-	margin: 0 35px;
 	position: relative;
 	overflow: hidden;
 }
 
-img {
+.box img {
 	width: 100%;
 	transition: all 1s 1s;
 }
 
 .title {
+	font-size: 10px;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 255, 0.164);
@@ -36,7 +62,6 @@ img {
 }
 
 h2 {
-	font-size: 16px;
 	color: #fff;
 	margin-bottom: 10px;
 	background-color: aqua;
@@ -44,6 +69,7 @@ h2 {
 	left: 100%;
 	transition: all 1s 1s;
 }
+
 .box:hover .title {
 	left: 0;
 	transform: rotate(360deg);
@@ -53,9 +79,43 @@ h2 {
 	left: 0;
 }
 .box:hover img {
+	left: 100%;
 	transform: scale(1.2);
 }
 p {
-	font-size: 16px;
 	color: #fff;
+	left: 100%;
+}
+/* media */
+
+/* Extra small devices (phones, 500px and down) */
+@media only screen and (max-width: 500px) {
+	.box {
+		flex-basis: 100%;
+	}
+	.navbar .list {
+		font-size: 0.8rem;
+		gap: 1rem;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.box {
+		flex-basis: 48%;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.box {
+		flex-basis: 30%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.box {
+		flex-basis: 23%;
+	}
 }
