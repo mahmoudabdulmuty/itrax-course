@@ -32,7 +32,11 @@ divide.onclick = function () {
 	const value2 = +document.getElementById('value2').value;
 	const divide = value1 / value2;
 	document.body.appendChild(h1);
-	h1.textContent = 'Result is ' + divide;
+	if (Number.isNaN(divide)) {
+		h1.textContent = 'Result is undefined';
+	} else {
+		h1.textContent = 'Result is ' + divide;
+	}
 };
 clear.onclick = function () {
 	document.getElementById('value1').value = '';
