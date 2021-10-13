@@ -26,23 +26,29 @@
 				border-radius: 50%;
 				color: lightseagreen;
 				background-color: lightblue;
-				box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 				display: flex;
 				align-items: center;
 				justify-content: center;
 				margin-bottom: 20px;
+				outline: 5px solid lightskyblue;
+			}
+			#clear {
+				color: #fff;
+				background-color: lightcoral;
+				outline: 5px solid darkmagenta;
+				padding: 48px;
 			}
 		</style>
 	</head>
 	<body>
-		<!-- VALUE1 -->
+		<!-- VALUE#1 -->
 		<label for="value1"
-			>value1
+			>value#1
 			<input type="number" id="value1" />
 		</label>
-		<!-- VALUE2 -->
+		<!-- VALUE#2 -->
 		<label for="value2"
-			>value2
+			>value#2
 			<input type="number" id="value2" />
 		</label>
 		<!-- ARITHMETIC -->
@@ -52,6 +58,7 @@
 			<button id="multiply" class="btn" type="submit">x</button>
 			<button id="divide" class="btn" type="submit">/</button>
 		</div>
+		<button class="btn" id="clear">Clear</button>
 		<script src="script.js"></script>
 	</body>
 </html>
