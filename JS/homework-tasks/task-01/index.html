@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>index</title>
+		<style>
+			body {
+				display: grid;
+				place-items: center;
+			}
+			label {
+				display: block;
+				margin-bottom: 50px;
+			}
+			.arithmetic {
+				display: flex;
+				align-items: center;
+				gap: 28px;
+			}
+			.btn {
+				width: 48px;
+				height: 48px;
+				font-size: 24px;
+				border-radius: 50%;
+				color: lightseagreen;
+				background-color: lightblue;
+				box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-bottom: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- VALUE1 -->
+		<label for="value1"
+			>value1
+			<input type="number" id="value1" />
+		</label>
+		<!-- VALUE2 -->
+		<label for="value2"
+			>value2
+			<input type="number" id="value2" />
+		</label>
+		<!-- ARITHMETIC -->
+		<div class="arithmetic">
+			<button id="sum" class="btn" type="submit">+</button>
+			<button id="minus" class="btn" type="submit">-</button>
+			<button id="multiply" class="btn" type="submit">x</button>
+			<button id="divide" class="btn" type="submit">/</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
