@@ -1,7 +1,9 @@
+// creating h1 element
 const h1 = document.createElement('h1');
-const grade = document.getElementById('grade');
 
+// submit Result function
 const submitResult = function () {
+	const grade = document.getElementById('grade');
 	let result = 'النتيجة ';
 
 	if (grade.value >= 85) result += 'امتياز';
@@ -13,6 +15,7 @@ const submitResult = function () {
 	h1.textContent = result;
 };
 
+// clear Result function
 const clearResult = function () {
 	h1.textContent = '';
 	grade.value = '';
