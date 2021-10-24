@@ -5,7 +5,7 @@ const h1 = document.createElement('h1');
 const submitResult = function () {
 	const grade = +document.getElementById('grade').value;
 
-	let result = "You've got an ";
+	let result = "You've got a ";
 
 	if (!grade) result = '';
 	else if (grade > 100 || grade < 0) result = 'WRONG ENTRY!!!!!!!';
