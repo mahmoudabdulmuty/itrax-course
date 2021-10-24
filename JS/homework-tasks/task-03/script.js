@@ -4,13 +4,13 @@ const h1 = document.createElement('h1');
 // submit Result function
 const submitResult = function () {
 	const grade = document.getElementById('grade');
-	let result = 'النتيجة ';
+	let result = 'Result is ';
 
-	if (grade.value >= 85) result += 'امتياز';
-	else if (grade.value >= 75) result += 'جيد جدا';
-	else if (grade.value >= 65) result += 'جيد';
-	else if (grade.value >= 60) result += 'مقبول';
-	else result += 'راسب';
+	if (grade.value >= 85) result += 'A';
+	else if (grade.value >= 75) result += 'B';
+	else if (grade.value >= 65) result += 'C';
+	else if (grade.value >= 60) result += 'D';
+	else result += 'F';
 
 	h1.textContent = result;
 };
