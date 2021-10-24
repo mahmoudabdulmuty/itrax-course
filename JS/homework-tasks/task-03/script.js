@@ -7,7 +7,8 @@ const submitResult = function () {
 
 	let result = 'Result is ';
 
-	if (grade > 100 || !grade) result = 'Wrong Entry';
+	if (!grade) result = '';
+	else if (grade > 100 || grade < 0) result = 'WRONG ENTRY!!!!!!!';
 	else if (grade >= 85) result += 'A';
 	else if (grade >= 75) result += 'B';
 	else if (grade >= 65) result += 'C';
