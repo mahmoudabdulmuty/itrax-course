@@ -5,7 +5,7 @@ const h1 = document.createElement('h1');
 const submitResult = function () {
 	const grade = +document.getElementById('grade').value;
 
-	let result = 'Result is ';
+	let result = "You've got an ";
 
 	if (!grade) result = '';
 	else if (grade > 100 || grade < 0) result = 'WRONG ENTRY!!!!!!!';
@@ -16,12 +16,6 @@ const submitResult = function () {
 	else result += 'F';
 
 	h1.textContent = result;
-};
-
-// clear Result function
-const clearResult = function () {
-	h1.textContent = '';
-	grade.value = '';
 };
 
 document.body.appendChild(h1);
