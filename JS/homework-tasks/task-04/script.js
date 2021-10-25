@@ -6,8 +6,7 @@ document.body.style.cssText =
 // Create Container
 const container = document.createElement('section');
 container.className = 'container';
-container.style.cssText =
-	'display: grid; grid-template-columns: repeat(auto-fill, minmax(400px,1fr))';
+container.style.cssText = 'display: flex; flex-wrap: wrap; gap: 30px;';
 
 for (let i = 0; i < 9; i++) {
 	// Create Single Divs
@@ -17,11 +16,27 @@ for (let i = 0; i < 9; i++) {
 	// Single > Image Box
 	const imgBox = document.createElement('div');
 	imgBox.className = 'img-box';
+	imgBox.style.cssText = 'overflow: hidden; position: relative';
 
 	// Image Box > Image
 	const image = document.createElement('img');
 	image.src = `./img/img-${i + 1}.webp`;
 	image.alt = 'image';
+	image.style.cssText = 'display: block';
+
+	// Image Box > Overlay
+	const overlay = document.createElement('div');
+	overlay.className = 'overlay';
+	overlay.style.cssText =
+		'position: absolute; left: 0; top: 0; height: 100%; width: 100%; transition: all .4s ease 0s;';
+
+	// hover effect on image
+	imgBox.onmouseover = function hoverOverSingle() {
+		overlay.style.backgroundColor = 'rgba(77,87,222,.5)';
+	};
+	imgBox.onmouseleave = function hoverOverSingle() {
+		overlay.style.backgroundColor = '';
+	};
 
 	// Single > Content
 	const content = document.createElement('div');
@@ -51,6 +66,7 @@ for (let i = 0; i < 9; i++) {
 	single.append(imgBox);
 	single.append(content);
 	imgBox.append(image);
+	imgBox.append(overlay);
 	content.append(title);
 	content.append(description);
 	title.append(titleLink);
