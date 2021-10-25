@@ -50,6 +50,7 @@ for (let i = 0; i < 9; i++) {
 
 	// Content > Title > Link
 	const titleLink = document.createElement('a');
+	titleLink.href = '#';
 	titleLink.className = 'title-link';
 	titleLink.textContent = 'minimal design';
 	titleLink.style.cssText =
