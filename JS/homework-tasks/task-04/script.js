@@ -1,5 +1,4 @@
 // 'use strict'
-
 // Body Style
 document.body.style.cssText =
 	"line-height: 26px; font-size: 15px; font-family: 'Roboto', sans-serif; font-weight: 400;color: #777;";
