@@ -74,5 +74,3 @@ for (let i = 0; i < 9; i++) {
 
 // Adding Container Component to Body
 document.body.prepend(container);
-
-console.log(this);
