@@ -15,7 +15,7 @@ for (let i = 1; i <= 9; i++) {
 	// Create Image Box
 	const imgBox = document.createElement('div');
 	imgBox.className = 'img-box';
-	imgBox.style.cssText = 'overflow: hidden; position: relative';
+	imgBox.style.cssText = 'position: relative';
 
 	// Create Image
 	const img = document.createElement('img');
