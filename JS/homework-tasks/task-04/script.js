@@ -19,10 +19,10 @@ for (let i = 0; i < 9; i++) {
 	imgBox.style.cssText = 'overflow: hidden; position: relative';
 
 	// Create Image
-	const image = document.createElement('img');
-	image.src = `./img/img-${i + 1}.webp`;
-	image.alt = 'image';
-	image.style.cssText = 'display: block';
+	const img = document.createElement('img');
+	img.src = `./img/img-${i + 1}.webp`;
+	img.alt = 'image';
+	img.style.cssText = 'display: block';
 
 	// Create Overlay
 	const overlay = document.createElement('div');
@@ -66,7 +66,7 @@ for (let i = 0; i < 9; i++) {
 	container.append(single);
 	single.append(imgBox);
 	single.append(content);
-	imgBox.append(image);
+	imgBox.append(img);
 	imgBox.append(overlay);
 	content.append(title);
 	content.append(description);
