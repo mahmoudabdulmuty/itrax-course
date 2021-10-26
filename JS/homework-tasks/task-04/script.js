@@ -7,7 +7,7 @@ const container = document.createElement('section');
 container.className = 'container';
 container.style.cssText = 'display: flex; flex-wrap: wrap; gap: 30px;';
 
-for (let i = 0; i < 9; i++) {
+for (let i = 1; i <= 9; i++) {
 	// Create Single Div
 	const single = document.createElement('div');
 	single.className = 'single';
@@ -19,7 +19,7 @@ for (let i = 0; i < 9; i++) {
 
 	// Create Image
 	const img = document.createElement('img');
-	img.src = `./img/img-${i + 1}.webp`;
+	img.src = `./img/img-${i}.webp`;
 	img.alt = 'image';
 	img.style.cssText = 'display: block';
 
