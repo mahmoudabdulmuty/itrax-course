@@ -9,7 +9,7 @@ container.className = 'container';
 container.style.cssText = 'display: flex; flex-wrap: wrap; gap: 30px;';
 
 for (let i = 0; i < 9; i++) {
-	// Create Single Divs
+	// Create Single Div
 	const single = document.createElement('div');
 	single.className = 'single';
 
@@ -73,5 +73,5 @@ for (let i = 0; i < 9; i++) {
 	title.append(titleLink);
 }
 
-// Adding Container Componenet to Body
+// Adding Container Component to Body
 document.body.prepend(container);
