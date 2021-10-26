@@ -13,18 +13,18 @@ for (let i = 0; i < 9; i++) {
 	const single = document.createElement('div');
 	single.className = 'single';
 
-	// Single > Image Box
+	// Create Image Box
 	const imgBox = document.createElement('div');
 	imgBox.className = 'img-box';
 	imgBox.style.cssText = 'overflow: hidden; position: relative';
 
-	// Image Box > Image
+	// Create Image
 	const image = document.createElement('img');
 	image.src = `./img/img-${i + 1}.webp`;
 	image.alt = 'image';
 	image.style.cssText = 'display: block';
 
-	// Image Box > Overlay
+	// Create Overlay
 	const overlay = document.createElement('div');
 	overlay.className = 'overlay';
 	overlay.style.cssText =
@@ -38,17 +38,17 @@ for (let i = 0; i < 9; i++) {
 		overlay.style.backgroundColor = '';
 	};
 
-	// Single > Content
+	// Create Content
 	const content = document.createElement('div');
 	content.className = 'content';
 
-	// Content > Title
+	// Create Title
 	const title = document.createElement('h4');
 	title.className = 'title';
 	title.style.cssText =
 		'text-transform: uppercase; font-size: 20px; margin-bottom: 0;';
 
-	// Content > Title > Link
+	// Create Title Link
 	const titleLink = document.createElement('a');
 	titleLink.href = '#';
 	titleLink.className = 'title-link';
@@ -56,7 +56,7 @@ for (let i = 0; i < 9; i++) {
 	titleLink.style.cssText =
 		'text-decoration: none; transition: all 0.3s ease-in-out; background-color: transparent; color: #000;';
 
-	// Content > Description
+	// Create Description
 	const description = document.createElement('p');
 	description.className = 'description';
 	description.textContent = 'Animated, portfolio';
