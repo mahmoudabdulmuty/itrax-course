@@ -1,4 +1,3 @@
-// 'use strict'
 // Body Style
 document.body.style.cssText =
 	"line-height: 26px; font-size: 15px; font-family: 'Roboto', sans-serif; font-weight: 400;color: #777;";
@@ -75,3 +74,5 @@ for (let i = 0; i < 9; i++) {
 
 // Adding Container Component to Body
 document.body.prepend(container);
+
+console.log(this);
