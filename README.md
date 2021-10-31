@@ -1,1 +1,1 @@
-# Itrax Front-End Deploma
+# Itrax Front-End Diploma
