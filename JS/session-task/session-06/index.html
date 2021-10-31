@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>index</title>
+	</head>
+	<body>
+		<div style="display: flex; justify-content: center; margin-bottom: 10px">
+			<img id="default" src="./img/img-1.jpg" alt="img-1" style="width: 70%" />
+		</div>
+		<div style="display: flex; justify-content: center; gap: 10px">
+			<img
+				onclick="changeSrc('img/img-1.jpg')"
+				src="img/img-1.jpg"
+				alt="img-1"
+				style="width: 20%"
+			/>
+			<img
+				onclick="changeSrc('img/img-2.jpg')"
+				src="img/img-2.jpg"
+				alt="img-2"
+				style="width: 20%"
+			/>
+			<img
+				onclick="changeSrc('img/img-3.jpeg')"
+				src="img/img-3.jpeg"
+				alt="img-3"
+				style="width: 20%"
+			/>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
