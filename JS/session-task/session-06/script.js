@@ -1,4 +1,4 @@
-// task01 -- Solution 1
+// task01 -- Solution#1
 // const img1 = document.getElementById('img-1');
 // const img2 = document.getElementById('img-2');
 // const img3 = document.getElementById('img-3');
@@ -16,7 +16,7 @@
 // 	defaultImg.src = './img/img-3.jpeg';
 // };
 
-// task01 -- Solution 2
+// task01 -- Solution#2
 function changeSrc(img) {
 	document.getElementById('default').src = img;
 }
