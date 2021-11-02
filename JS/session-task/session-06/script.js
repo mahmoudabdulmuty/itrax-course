@@ -28,9 +28,6 @@ let i = 0;
 function slideShow() {
 	document.getElementById('img').src = arrOfImages[i];
 	i++;
-	if (i >= arrOfImages.length) {
-		i = 0;
-	}
+	if (i >= arrOfImages.length) i = 0;
 }
-
 setInterval('slideShow()', 1000);
